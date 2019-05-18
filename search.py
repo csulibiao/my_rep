@@ -15,4 +15,4 @@ def binary_search(alist,item):
 
 if __name__=="__main__":
     print(binary_search(alist,54))
-    print(alist)
+
