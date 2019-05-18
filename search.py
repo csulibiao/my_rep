@@ -1,5 +1,4 @@
 alist=[17,20,26,31,44,54,55,77,93]
-
 def binary_search(alist,item):
     n = len(alist)
     mid = int(n/2)
@@ -16,3 +15,4 @@ def binary_search(alist,item):
 
 if __name__=="__main__":
     print(binary_search(alist,54))
+    print(alist)
